@@ -1,0 +1,65 @@
+{
+  "id": "webfg400-resnet50-training",
+  "title": "WebFG-400 Fine-Grained Classification with ResNet-50",
+  "code_file": "kaggle_train.py",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "datasets/webfg400-train"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [],
+  "accelerator": "gpu",
+  "keywords": [
+    "computer vision",
+    "fine-grained classification", 
+    "resnet50",
+    "pytorch",
+    "web images"
+  ],
+  "description": "Fine-grained image classification on WebFG-400 dataset using ResNet-50 with transfer learning",
+  "id_no": 123456789,
+  "license": {
+    "name": "other",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "author": {
+    "name": "AIC Competition Participant",
+    "url": "https://www.kaggle.com/example"
+  },
+  "collaborators": [],
+  "evaluation": {
+    "metric": "accuracy",
+    "type": "classification"
+  },
+  "environment": {
+    "name": "pytorch",
+    "type": "framework",
+    "version": "2.0.0"
+  },
+  "framework": "pytorch",
+  "gpu": "p100",
+  "memory": 16,
+  "compute_time": 3600,
+  "outputs": [
+    {
+      "name": "best_model.pth",
+      "type": "model",
+      "description": "Best trained model weights"
+    },
+    {
+      "name": "training_history.png", 
+      "type": "plot",
+      "description": "Training and validation metrics"
+    },
+    {
+      "name": "training_config.txt",
+      "type": "text",
+      "description": "Training configuration parameters"
+    }
+  ]
+}
